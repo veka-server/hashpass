@@ -1,9 +1,9 @@
 {
   "manifest_version": 2,
 
-  "name": "Hashpass",
-  "description": "A simple, stateless password manager.",
-  "version": "1.9.8",
+  "name": "VekaPass",
+  "description": "A simple, stateless password manager. Forked from HashPass",
+  "version": "1.0",
   "permissions": [
     "activeTab"
   ],
