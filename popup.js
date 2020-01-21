@@ -83,7 +83,7 @@ $(function() {
 
               var hash = sjcl.codec.base64.fromBits(bits).slice(0, 16);
               var nb_s = hash.replace(/[^0-9]/g,"").length;
-              var special = '^$*ù!:;,[#{|][\`@';
+              var special = '/*-+=)@&#{[|]}%$!';
               hash = hash+nb_s+special[nb_s];
               if (!passwordMode) {
                 $('#hash').val(hash);
